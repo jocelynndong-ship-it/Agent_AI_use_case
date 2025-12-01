@@ -28,10 +28,15 @@ Analyse sémantique par l'IA pour suggérer la meilleure cible (Target) à préd
 Le système est modulaire. Chaque script agit comme un agent spécialisé :
 Fichier	Rôle	Description
 main.py	🎮 Chef d'Orchestre	Point d'entrée (CLI). Gère le menu, l'upload CSV vers BigQuery et lance les agents.
+
 generate_kpi_query_g3.py	🧠 Agent SQL	Analyse le schéma BigQuery et génère/corrige le SQL via Gemini. Sauvegarde dans generated_query.sql.
+
 run_pipeline_g3.py	⚙️ Orchestrateur	Exécute l'agent pipeline, gère le nettoyage des anciens fichiers et la sauvegarde Parquet.
+
 pipeline_agent.py	🎨 Agent Viz	Exécute la requête, nettoie les données (Robustness) et crée les visuels statiques + rapport Markdown.
+
 dashboard.py	📊 Interface BI	Dashboard Streamlit complet (KPIs, Onglets dynamiques, Géospatial).
+
 app3.py	🧪 Agent ML	Interface Auto-ML pour l'entraînement de modèles et l'analyse prédictive.
 
 
