@@ -54,7 +54,6 @@ cd votre-repo
 Créer un environnement virtuel :
 python -m venv .venv
 source .venv/bin/activate  # Mac/Linux
-# .venv\Scripts\activate   # Windows
 
 
 
