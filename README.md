@@ -11,7 +11,7 @@ Ce projet orchestre plusieurs scripts Python pour automatiser le pipeline de don
 
 
 
-
+-----------------------------------------
 🚀 Fonctionnalités Clés
 
 🕵️‍♂️ Agent SQL Génératif : Transforme le langage naturel en SQL BigQuery optimisé. Nettoie automatiquement les formats financiers ($, ,) et gère les erreurs de syntaxe.
