@@ -26,6 +26,7 @@ Graphiques interactifs (Plotly).
 
 Système de cache intelligent (rechargement auto si la table change).
 
+-----------------------------------------
 
 🔮 Auto-ML Lab (V7.1) :
 
@@ -35,7 +36,7 @@ Modes Classification, Régression et Clustering.
 
 Analyse sémantique par l'IA pour suggérer la meilleure cible (Target) à prédire.
 
-
+-----------------------------------------
 
 📂 Architecture du Projet
 
@@ -56,7 +57,7 @@ dashboard.py	📊 Interface BI	Dashboard Streamlit complet (KPIs, Onglets dynami
 app3.py	🧪 Agent ML	Interface Auto-ML pour l'entraînement de modèles et l'analyse prédictive.
 
 
-
+-----------------------------------------
 🛠️ Pré-requis
 
 Google Cloud Platform (GCP) :
@@ -67,24 +68,24 @@ BigQuery API activée.
 
 Un fichier de clé de service (JSON) ou une authentification locale (gcloud auth application-default login).
 
-
+-----------------------------------------
 Gemini API :
 Une clé API valide (Google AI Studio).
 Python 3.9+
 
-
+-----------------------------------------
 📦 Installation
 Cloner le dépôt :
 git clone https://github.com/votre-user/votre-repo.git
 cd votre-repo
 
-
+-----------------------------------------
 Créer un environnement virtuel :
 python -m venv .venv
 source .venv/bin/activate  # Mac/Linux
 
 
-
+-----------------------------------------
 Installer les dépendances :
 pip install -r requirements.txt
 
@@ -96,7 +97,7 @@ DATASET_ID=agent_dataset
 GOOGLE_API_KEY=votre-cle-api-gemini
 
 
-
+-----------------------------------------
 ▶️ Utilisation
 Lancez simplement le script principal pour démarrer l'assistant :
 python main.py
@@ -114,7 +115,7 @@ Une fois le pipeline terminé, choisissez l'option 1 pour ouvrir le Dashboard St
 
 
 
-
+-----------------------------------------
 📦 Requirements (Dépendances)
 
 Pour recréer le fichier requirements.txt, voici les librairies nécessaires :
@@ -145,7 +146,7 @@ db-dtypes
 
 
 
-
+-----------------------------------------
 🛡️ Robustesse & Gestion d'Erreurs
 
 Ce projet a été conçu pour la production :
@@ -159,7 +160,7 @@ Type Safety : Conversion forcée des types pd.NA (Nullables) pour éviter les cr
 Clean Workspace : Suppression automatique des anciens graphiques/rapports avant chaque nouvelle exécution.
 
 
-
+-----------------------------------------
 👤 Auteur
 Jocelyn NDONG - Analyst Engineer (Devoteam G Cloud)
 N'hésitez pas à contribuer ou à ouvrir une issue pour toute suggestion d'amélioration !
